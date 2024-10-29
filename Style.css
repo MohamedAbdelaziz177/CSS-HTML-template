@@ -1,0 +1,562 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+
+    width: 100%;
+    background-color: rgb(233, 234, 231);
+    height: 80px;
+    padding-top: 0;
+    position: fixed;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+
+}
+
+.logo{
+    float: left;
+    padding: 30px 20px 30px 170px;
+    text-decoration: none;
+    text-align: center;
+    color: #4267c3;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+
+}
+
+nav{
+    padding-right: 170px;
+}
+
+nav a
+{
+    float: right;
+    padding: 35px 30px 30px 30px;
+    text-decoration: none;
+    text-align: center;
+    color: #4267c3;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: sans-serif;
+    transition: 0.7s;
+
+}
+
+nav a:hover{
+    color: red;
+    transform: scale(1.2);
+}
+
+h2
+{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: underline 1px;
+    font-style: italic;
+    color: white;
+    margin-top: 100px;
+}
+
+h2 span
+{
+    display: inline-block;
+    font-size: 50px;
+    margin-top: 12px;
+    letter-spacing: 2px;
+    text-decoration: underline 2px;
+    font-style: italic;
+    color: #c6cddd;
+
+
+}
+
+h3{
+    font-family: sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: underline 1px ;
+
+}
+
+.main-content{
+    background: url("https://wallpaperaccess.com/full/2746033.png");
+    background-color: #4267c3;
+    background-size: cover;
+
+    height: 100vh;
+    align-items: center;
+    padding-top: 80px;
+    padding-left: 80px;
+
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.clear{
+    clear: both;
+}
+.btn{
+    background-color: #4267c3;
+    width: 10%;
+    height: 40px;
+    margin-top: 70px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.btn a{
+    display: block;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+
+.btn:hover{
+    background-color: #1d46ac;
+    transform: scale(1.1);
+}
+
+.media .fb{
+    margin-top: 20px;
+}
+
+.media .linked{
+    margin-top: 20px;
+}
+
+
+.media img{
+    display: inline-block;
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    filter:invert(1);
+    transition: 0.6s;
+}
+
+
+.media a{
+    color: white;
+}
+
+.media img:hover{
+    transform: scale(1.3);
+}
+
+.media .inst{
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+
+}
+
+.myPh{
+    float: right;
+    height: 100%;
+    width: 60%;
+    transform:scaleX(-1);
+    opacity: 0.8;
+    filter: blur(1.5px) brightness(0.6) grayscale(100%);
+
+
+}
+
+.myPh:hover{
+    opacity: 0.9;
+    filter: blur(3.5px) brightness(0.6) grayscale(60%);
+
+}
+
+.cards{
+
+
+    text-align: center;
+    padding-left: 200px;
+    margin-bottom: 400px;
+
+
+}
+
+.cards h2, .title{
+    font-family: sans-serif;
+    text-align: center;
+    color: #4267c3;
+    padding-right: 220px;
+    margin-bottom: 60px;
+    text-decoration: none;
+    font-size: 55px;
+    letter-spacing: 2px;
+    font-style: italic;
+
+
+}
+
+.card{
+    text-align: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    margin-left: 20px;
+    width: 25%;
+    height: 300px;
+    float: left;
+    transition: 0.7s;
+
+}
+
+.icon{
+
+    height: 100px;
+    margin-bottom: 27px;
+    padding-top: 15px;
+
+}
+
+.card h3{
+    margin-bottom: 12px;
+}
+
+.card p{
+    font-family: sans-serif;
+}
+
+
+
+.card a{
+    display: inline-block;
+    color: #4267c3;
+    font-style: italic;
+    text-decoration: underline #1d46ac 2px solid;
+}
+
+.card:hover{
+    transform: scale(1.2);
+
+}
+
+
+.interests{
+    background-color: rgba(226, 228, 230, 0.68);
+  /*  background-image: url("https://wallpaperaccess.com/full/2746033.png");*/
+    height: 130vh;
+    align-items: center;
+    padding-left: 200px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+    margin-bottom: 5px;
+    border-color: rgba(226, 229, 232, 0.68);
+    border-bottom: 1.5px solid rgba(226, 229, 232, 0.68);
+
+
+}
+
+.int{
+    text-align: center;
+    float: left;
+    width: 25%;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 18px;
+    transition: 0.7s;
+
+
+}
+
+.int:hover{
+    transform: scale(1.2);
+}
+.int img{
+
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;s
+
+}
+.interests h2 {
+    color: #1d46ac;
+    text-decoration: underline #f5f5f6 2px solid;
+    padding-top: 40px;
+
+}
+
+.interests h3{
+    color: black;
+    margin-bottom: 8px;
+}
+
+
+.int a, .link{
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #4267c3;
+    padding-bottom: 28px;
+    transition: 0.7s;
+}
+
+.int a:hover{
+
+    transform: scale(1.25);
+    color: #1d46ac;
+    text-decoration: none;
+}
+
+.contact{
+    height: 200px;
+    margin-left: 350px;
+    margin-bottom: 100px;
+}
+
+.contact h2{
+    padding-left: 100px;
+    color: #3555a5;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-decoration: none;
+    font-size: 40px;
+}
+.contact .card{
+    text-align: center;
+    height: 200px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin-right: 30px;
+}
+
+.contact .card img{
+    display: inline-block;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+
+.contact .card a{
+    color: #1d46ac;
+    font-family: sans-serif;
+    font-style: italic;
+    text-decoration: underline #1d46ac 1px solid;
+
+}
+
+
+
+.card a:hover{
+    transform: scale(1.2);
+    color: #1d46ac;
+}
+
+.footer{
+    width: 100%;
+    height: 38px;
+    background-color: #222223;
+    margin-top: 80px;
+    text-align: left;
+}
+
+.footer p{
+    display: inline-block;
+    font-family: sans-serif;
+    color: #eaecf1;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-left: 3px;
+}
+
+@media(max-width: 1023px){
+    .header{
+        height: 80px;
+    }
+
+    nav a{
+        padding: 35px 15px 30px 15px;
+    }
+
+    .logo {
+        padding: 30px 30px 30px 30px;
+    }
+
+    nav{
+        padding-right: 40px;
+    }
+
+
+    .main-content{
+
+
+        height: 25vh;
+        align-items: center;
+        padding-top: 70px;
+        padding-left: 43px;
+
+        margin-bottom: 10px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .main-content h2
+    {
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        text-decoration: underline 1px;
+        font-style: italic;
+        color: white;
+        margin-top: 100px;
+    }
+
+    .main-content h2 span
+    {
+
+        font-size: 30px;
+        margin-top: 18px;
+        letter-spacing: 1px;
+        text-decoration: underline 2px;
+        font-style: italic;
+
+
+    }
+
+    .interests{
+        background-size: cover;
+        height: 130vh;
+        align-items: center;
+        padding-left: 100px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        margin-bottom: 5px;
+        border-radius: 25px;
+
+
+    }
+
+
+    .cards{
+
+
+        text-align: center;
+        padding-left: 140px;
+        margin-bottom: 400px;
+
+
+    }
+
+
+
+    .cards h2, .title{
+        font-family: sans-serif;
+        text-align: center;
+        color: #4267c3;
+        padding-left:  100px;
+        margin-bottom: 60px;
+        text-decoration: none;
+        font-size: 90px;
+        letter-spacing: 2px;
+        font-style: italic;
+
+
+    }
+
+
+
+    .card{
+        text-align: center;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+        margin-left: 20px;
+        width: 70%;
+        height: 500px;
+        float: left;
+        transition: 0.7s;
+
+    }
+
+    .icon{
+
+        height: 200px;
+        margin-bottom: 27px;
+        padding-top: 40px;
+
+    }
+
+    .card h3{
+        margin-bottom: 40px;
+    }
+
+    .card p{
+        padding:5px 4px;
+        font-family: sans-serif;
+        font-size: 25px;
+    }
+
+
+    .int{
+        text-align: center;
+        float: left;
+        width: 70%;
+        height: 17vh;
+        margin-left: 50px;
+        background-color: #dfdcdc;
+
+        border: 2px black solid;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        margin-bottom: 18px;
+        transition: 0.7s;
+        border-radius: 10px;
+
+
+    }
+
+    .int img{
+        width: 100%;
+        height: 12vh;
+        margin-bottom: 3px;
+        border-radius: 10px;
+
+    }
+
+
+    .contact{
+        height: 20vh;
+        margin-left: 200px;
+        margin-bottom: 30px;
+    }
+
+    .contact h2{
+        padding-left: 30px;
+        color: #3555a5;
+        font-weight: 700;
+        margin-bottom: 40px;
+        text-decoration: none;
+        font-size: 40px;
+    }
+
+    .contact .card{
+        text-align: center;
+        height: 15vh;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        margin-right: 30px;
+        width: 30%;
+    }
+
+    .contact .card img{
+        display: inline-block;
+        padding-bottom: 20px;
+        border-bottom: 2px solid black;
+    }
+
+    .contact .card a{
+        color: #1d46ac;
+        font-family: sans-serif;
+        font-style: italic;
+        text-decoration: underline #1d46ac 1px solid;
+
+    }
+
+
+
+}
